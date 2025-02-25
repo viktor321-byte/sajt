@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Škola - Početna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dobrodošli u našu školu</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Početna</a></li>
+                <li><a href="#">O školi</a></li>
+                <li><a href="#">Predmeti</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Najbolje obrazovanje za vaše dete</h2>
+        <p>Naša škola nudi kvalitetno obrazovanje i sjajne profesore.</p>
+    </section>
+
+    <section class="kontakt">
+        <h2>Kontaktirajte nas</h2>
+        <form id="kontakt-forma">
+            <input type="text" id="ime" placeholder="Vaše ime" required>
+            <input type="email" id="email" placeholder="Vaš email" required>
+            <textarea id="poruka" placeholder="Vaša poruka" required></textarea>
+            <button type="submit">Pošalji</button>
+        </form>
+        <p id="poruka-status"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
